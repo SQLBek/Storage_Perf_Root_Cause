@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07E3B853-F761-4B32-9B42-77A6F4E2D71D}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\0 - Reset.sql = Scripts\0 - Reset.sql
+		Scripts\1 - sys.dm_io_virtual_file_stats-delta.sql = Scripts\1 - sys.dm_io_virtual_file_stats-delta.sql
+		Scripts\2 - sys.dm_io_virtual_file_stats.sql = Scripts\2 - sys.dm_io_virtual_file_stats.sql
+		Scripts\3 - sys.dm_io_virtual_file_stats-delta-v2.sql = Scripts\3 - sys.dm_io_virtual_file_stats-delta-v2.sql
+		Scripts\4 - sp_whoisactive.sql = Scripts\4 - sp_whoisactive.sql
+		Scripts\4a - tran_log_writes.sql = Scripts\4a - tran_log_writes.sql
+		Scripts\5 - Deep Dive Internals.sql = Scripts\5 - Deep Dive Internals.sql
+		Scripts\98 - Workload.sql = Scripts\98 - Workload.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54C55E6-B145-42C8-92DC-5330067E6876}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43172AE2-6D38-4CA0-84E0-DBC258DFC892}
+	EndGlobalSection
+EndGlobal
