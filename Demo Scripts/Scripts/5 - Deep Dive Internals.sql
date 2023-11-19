@@ -16,6 +16,8 @@ USE Sandbox
 GO
 
 
+
+
 -----
 -- Clear everything out then Start Capture in ProcMon
 DBCC DROPCLEANBUFFERS
@@ -26,8 +28,14 @@ SET STATISTICS IO ON
 GO
 
 
-SELECT TOP 10000 * FROM Sandbox.demo.UpdateTest
+-- Do some reads from disk
+SELECT TOP 10000 * 
+FROM Sandbox.demo.UpdateTest
 GO
+
+
+
+
 
 
 
@@ -39,6 +47,8 @@ DBCC DROPCLEANBUFFERS
 CHECKPOINT
 DBCC FREEPROCCACHE
 GO
+
+
 
 
 -----
@@ -77,6 +87,8 @@ DBCC FREEPROCCACHE
 GO
 
 
+
+
 -----
 -- Start
 BEGIN TRANSACTION
@@ -111,6 +123,8 @@ DBCC DROPCLEANBUFFERS
 CHECKPOINT
 DBCC FREEPROCCACHE
 GO
+
+
 
 
 -----

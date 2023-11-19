@@ -1,5 +1,5 @@
 /*-------------------------------------------------------------------
--- 1 - sys.dm_io_virtual_file_stats
+-- 2 - sys.dm_io_virtual_file_stats
 -- 
 -- Summary: Anthony Nocentino's sys.dm_io_virtual_file_stats 
 -- diagnostic script

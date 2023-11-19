@@ -57,6 +57,8 @@ EXEC sp_whoisactive @get_plans = 2, @get_transaction_info = 1, @get_task_info = 
 -- Execute 
 --    1. 4a - tran_log_writes.sql
 --    2. command below
+CHECKPOINT
+GO
 EXEC sp_whoisactive @get_transaction_info = 1, @get_task_info = 2
 GO
 
@@ -68,7 +70,7 @@ GO
 
 
 -----
--- Demo Variant: time permitting, execute 
+-- Combine DMV and sp_whoisactive
 --    1. 3 - sys.dm_io_virtual_file_stats-delta-v2.sql
 --    2. 4a - tran_log_writes.sql
 --    3. command below
